@@ -1,8 +1,8 @@
-from aiogram import Router, Bot
+from aiogram import Router
 from aiogram.filters import Command
 from aiogram.types import Message
 
-from sqlite import Session, DNSRecord
+from work_tg_bot.database.db import Session, DNSRecord
 from work_tg_bot.handlers import validators
 
 router = Router()

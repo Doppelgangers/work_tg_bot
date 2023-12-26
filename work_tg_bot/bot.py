@@ -1,19 +1,13 @@
 import asyncio
 import logging
-from pathlib import Path
 
 from aiogram import Bot, Dispatcher
+from work_tg_bot.database.db import Base, engine
 from decouple import config
-
-from handlers import core
-from sqlite import Base, engine
 
 from handlers import core, dns
 
-
-
 logging.basicConfig(level=logging.INFO)
-
 
 
 async def main():
