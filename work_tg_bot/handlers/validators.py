@@ -17,4 +17,3 @@ def check_ip_address(ip_address: str) -> bool:
         return len(host_bytes) == 4 and len(valid) == 4
     except:
         return False
-
