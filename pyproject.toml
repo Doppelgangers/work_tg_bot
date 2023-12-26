@@ -7,8 +7,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-python-dotenv = "^1.0.0"
 aiogram = "<4.0"
+python-decouple = "^3.8"
 
 
 [build-system]
