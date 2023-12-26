@@ -25,9 +25,10 @@ async def waitdns(message: Message):
         await message.reply("Некорректный IP адрес.")
         return
 
-    session = Session()
-    record = DNSRecord(domain=domain, host=wait_ip, user_id= message.from_user.id)
-    session.add(record)
-    session.commit()
+    with Session() as session:
+        record = DNSRecord(domain=domain, host=wait_ip, user_id=message.from_user.id)
+        session.add(record)
+        session.commit()
 
     await message.answer(f"Зарезервировано {wait_ip} в домен {domain}")
+

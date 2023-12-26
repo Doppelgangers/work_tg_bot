@@ -1,9 +1,8 @@
 import asyncio
 import logging
 
-from aiogram import Bot, Dispatcher
+from aiogram import Dispatcher
 from work_tg_bot.database.db import Base, engine
-from decouple import config
 
 from handlers import core, dns
 
@@ -11,8 +10,9 @@ logging.basicConfig(level=logging.INFO)
 
 
 async def main():
+
     Base.metadata.create_all(engine)
-    bot = Bot(token=config("BOT_TOKEN"))
+    from create_bot import bot
     dp = Dispatcher()
 
     dp.include_routers(core.router, dns.router)
