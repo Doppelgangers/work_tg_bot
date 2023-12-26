@@ -6,10 +6,14 @@ from pathlib import Path
 from aiogram import Bot, Dispatcher
 from decouple import config
 from handlers import core
+from sqlite import Base, engine
+
 logging.basicConfig(level=logging.INFO)
 
 
+
 async def main():
+    Base.metadata.create_all(engine)
     bot = Bot(token=config("BOT_TOKEN"))
     dp = Dispatcher()
 

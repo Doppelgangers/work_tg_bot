@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.11"
 aiogram = "<4.0"
 python-decouple = "^3.8"
+sqlalchemy = "^2.0.23"
 
 
 [build-system]
