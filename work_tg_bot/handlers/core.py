@@ -1,8 +1,8 @@
-from aiogram import Router, F
+from aiogram import Router
 from aiogram.filters import Command
 from aiogram.types import Message, ReplyKeyboardRemove
 
-from tests.core_kb import get_core_kb
+from work_tg_bot.keyboards.core_kb import get_core_kb
 
 router = Router()
 
