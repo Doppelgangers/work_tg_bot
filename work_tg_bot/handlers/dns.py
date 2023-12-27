@@ -8,7 +8,7 @@ from work_tg_bot.handlers import validators
 router = Router()
 
 
-@router.message(Command("waitdns"))
+@router.message(Command("dns"))
 async def waitdns(message: Message):
     args = message.text.split()
     if len(args) != 3:
