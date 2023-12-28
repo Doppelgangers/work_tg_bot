@@ -1,1 +1,17 @@
-[[%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22shape%3DflexArrow%3BendArrow%3Dclassic%3Bhtml%3D1%3Brounded%3D0%3BexitX%3D0.25%3BexitY%3D1%3BexitDx%3D0%3BexitDy%3D0%3BentryX%3D0.5%3BentryY%3D0%3BentryDx%3D0%3BentryDy%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22220%22%20y%3D%22-50%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22220%22%20y%3D%2240%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E](https://drive.google.com/file/d/1Gq8-5AiuBkNoLdCtO6AfyWfnQeOWH1qy/view?usp=sharing)https://drive.google.com/file/d/1Gq8-5AiuBkNoLdCtO6AfyWfnQeOWH1qy/view?usp=sharing](https://drive.google.com/file/d/1Gq8-5AiuBkNoLdCtO6AfyWfnQeOWH1qy/view?usp=sharing)https://drive.google.com/file/d/1Gq8-5AiuBkNoLdCtO6AfyWfnQeOWH1qy/view?usp=sharing
+
+# Work Telegram bot
+
+Бот для автоматизации процесса разработки:
+
+Схема работы бота: [Cсылка](https://app.diagrams.net/#G1Gq8-5AiuBkNoLdCtO6AfyWfnQeOWH1qy)
+
+### Основные функции
+
+- Проверка привязки  DNS в realtime
+
+
+## Authors
+
+- [@Doppelgangers](https://github.com/Doppelgangers)
+- [@peppak](https://github.com/peppak)
+
